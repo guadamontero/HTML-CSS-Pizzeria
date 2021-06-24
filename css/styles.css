@@ -73,8 +73,8 @@ main{
   padding: 20px;
   background: rgb(199, 199, 101) url('../img/delivery.jpg') 50% no-repeat;
   background-size: cover;
-  width: 580px;
-  height: 440px;
+  height: 350px;
+  width: 490px;
   border-radius: 5px;
   font-family: Roboto;
   font-style: bold;
@@ -98,8 +98,8 @@ main{
 
 .podio {
   background-color: #FFFFFF;
-  width: 580px;
-  height: 440px;
+  height: 350px;
+  width: 490px;
   border-radius: 5px;
 }
 
@@ -154,5 +154,5 @@ footer {
 .footer-menu ul {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
 }
