@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+/* -------HEADER------- */
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+h1{
+  color: green;
+  font-weight: 700;
+}
+
+.and {
+  color: white;
+  font-weight: 700;
+}
+
+.Front{
+  color: red;
+  font-weight: 700;
+}
+
+header {
+  position: sticky;
+  box-shadow: 3px 3px 3px 2px rgba(20, 14, 14, 0.5);
+}
+
+.header-container {
+  padding: 15px;
+  background-color:#222222;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* -------MAIN------- */
+
+main{
+  background-color: #E5E5E5;
+}
+.section-pizza {
+  padding: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.delivery {
+  padding: 20px;
+  background: rgb(199, 199, 101) url('../img/delivery.jpg') 50% no-repeat;
+  background-size: cover;
+  width: 580px;
+  height: 440px;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-style: bold;
+  font-size: 24px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.delivery h2 {
+  color: #FC200C;
+  font-weight: 700;
+  font-size: 27px;
+}
+
+.delivery span {
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.podio {
+  background-color: #FFFFFF;
+  width: 580px;
+  height: 440px;
+  border-radius: 5px;
+}
+
+.podio-titulo {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.podio-titulo h2 {
+  color: #FC200C;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.podio-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px;
+  font-style: 700;
+  align-items: center;
+}
+
+.podio-listas {
+  font-size: 20px;
+}
+
+.podio-listas h3{
+  padding: 15px;
+  text-align: justify;
+  font-weight: 700;
+  line-height: 30px;
+  line-height: 100%;
+}
+
+.podio-listas li {
+  font-weight: 700;
+  text-align: justify;
+}
+
+
+/* -------FOOTER------- */
+
+footer {
+  background-color:#222222;
+  padding: 15px 60px 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
