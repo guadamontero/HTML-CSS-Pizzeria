@@ -66,7 +66,9 @@ main{
 .section-pizza {
   padding: 40px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .delivery {
@@ -117,18 +119,22 @@ main{
 
 .podio-container {
   display: flex;
-  justify-content: space-around;
-  padding: 60px;
+  justify-content: center;
+  padding: 35px;
   font-style: 700;
   align-items: center;
 }
 
+.podio-imagen {
+  padding: 20px;
+  max-width: 100%;
+}
 .podio-listas {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .podio-listas h3{
-  padding: 15px;
+  padding: 20px;
   text-align: justify;
   font-weight: 700;
   line-height: 30px;
